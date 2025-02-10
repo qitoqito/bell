@@ -24,7 +24,7 @@ import {
 })().catch((e) => {
     console.log(e.message)
 })`
-    fs.writeFile(`${script}.js`, code, function(err, data) {
+    fs.writeFile(`./${script}.js`, code, function(err, data) {
         if (err) {
             throw err;
         }
