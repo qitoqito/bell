@@ -13,8 +13,8 @@ for (let i =0;i<6;i++) {
     let script=md5(i.toString())
     let code = `
 // new Env('test${script}')
-// 6 6 6 6 6  jd_${script}.js
-
+// 2 2 * * *  jd_${script}.js
+// cron: 1 1 * * *
 import path from 'path';
 import {
     fileURLToPath
